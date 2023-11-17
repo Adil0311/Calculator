@@ -16,5 +16,5 @@
     <string name="divide">/</string>
     <string name="equals">=</string>
     <string name="clear">C</string>
-    <string name="decimal">.</string>
+    <string name="dot">.</string>
 </resources>

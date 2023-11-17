@@ -7,14 +7,13 @@
     tools:context=".MainActivity">
 
 
-
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="0dp"
+        android:layout_margin="5dp"
         android:background="@color/white"
-        android:padding="0dp"
-        android:stretchColumns="*">
+        android:padding="10dp"
+       >
 
         <TableRow
             android:layout_width="match_parent"
@@ -91,7 +90,7 @@
                 android:id="@+id/five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/white"
+                android:backgroundTint="@color/white"
                 android:text="@string/five"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -100,7 +99,7 @@
                 android:id="@+id/six"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/white"
+                android:backgroundTint="@color/white"
                 android:text="@string/six"
                 android:textColor="#000000"
                 android:textSize="30sp" />
@@ -109,8 +108,7 @@
                 android:id="@+id/multiply"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/orange"
-                android:onClick="multiply"
+                android:backgroundTint="@color/orange"
                 android:text="*"
                 android:textColor="@color/white"
                 android:textSize="30sp" />
@@ -121,32 +119,29 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="four"
-                android:text="4"
+                android:backgroundTint="@color/white"
+                android:text="@string/three"
                 android:textColor="#000000"
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="five"
-                android:text="5"
+                android:backgroundTint="@color/white"
+                android:text="@string/two"
                 android:textColor="#000000"
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="six"
-                android:text="6"
+                android:backgroundTint="@color/white"
+                android:text="@string/one"
                 android:textColor="#000000"
                 android:textSize="30sp" />
 
@@ -154,92 +149,68 @@
                 android:id="@+id/buttonMinus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="minus"
+                android:backgroundTint="@color/orange"
                 android:text="-"
-                android:textColor="#000000"
+                android:textColor="@color/white"
                 android:textSize="30sp" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="one"
-                android:text="1"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="two"
-                android:text="2"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="three"
-                android:text="3"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-
-            <Button
-                android:id="@+id/buttonPlus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="plus"
-                android:text="+"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:id="@+id/button0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="zero"
-                android:text="0"
-                android:textColor="#000000"
-                android:textSize="30sp" />
 
             <Button
                 android:id="@+id/buttonDot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="dot"
-                android:text="."
+                android:backgroundTint="@color/white"
+                android:text="@string/dot"
                 android:textColor="#000000"
                 android:textSize="30sp" />
 
             <Button
-                android:id="@+id/buttonEquals"
+                android:id="@+id/zero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:onClick="equals"
-                android:text="="
+                android:backgroundTint="@color/white"
+                android:text="@string/zero"
                 android:textColor="#000000"
                 android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="@string/clear"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/orange"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
         </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/equals"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:layout_span="4"
+            android:text="@string/equals"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </TableRow>
     </TableLayout>
 
 
